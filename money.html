@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earning Hero</title>
+
+    <link rel="stylesheet" href="money.css">
+</head>
+<body>
+    <header>
+        <h1 id="heading">Earning Hero</h1>
+    </header>
+    <main>
+        <div>
+            <img style="width: 100%;" src="money.jpg" alt="">
+        </div>
+        <div id="calc" style="width: 100%;background-color:silver;">
+            <h3>Income:</h3>
+            <input id="income" type="number" name="" id="">
+            
+            <h3>Expenses:</h3>
+            <input id="food" type="number" placeholder="Food">
+            
+            <br><br>
+            <input id="cloths" type="number" placeholder="Cloths">
+            
+            <br><br>
+            <input id="rent" type="number" placeholder="Rent">
+            
+            <br><br>
+            <button id="calc" type="submit">Calculate</button>
+
+            <br>
+            <h3>Total Expenses:<span id="totalExpenses"></span></h3>
+            <h3>Balance:<span id="balance"></span></h3>
+            <br>
+            <span style="display:flex;justify-content: center;">
+                <p>Save:</p>
+                <input id="saving" type="number">
+                <p>%</p>
+                <button id="save" type="submit">Save</button>
+            </span>
+            <h3>Saving Amount:<span id="savingAmount"></span></h3>
+            <h3>Remaining Balance:<span id="remainingBalance"></span></h3>
+        </div>
+        
+    </main>
+    
+    <script src="money.js"></script>
+</body>
+</html>
